@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+
+.container{
+  margin-top: 2rem;
+  width: 100%;
+  margin: 1em auto;
+  background-color:black;
+}
+.grid{
+  display: grid;
+  margin-left: .5px;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 1.2em;
+  justify-content: center;
+ 
+}
